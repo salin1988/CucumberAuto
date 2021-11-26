@@ -1,0 +1,234 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-26T06:19:39.926Z",
+        "line": 13,
+        "name": "Validate multiple values",
+        "description": "",
+        "id": "create-an-user-account-in-facebook;validate-multiple-values",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5557574000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User needs to open a register page",
+            "match": {
+              "location": "com.basic.tagsSD.tagsStepDef.user_needs_to_open_a_facebook_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 341186000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User needs enters user \"Salin\" firstname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Salin",
+                  "offset": 24
+                }
+              ],
+              "location": "com.basic.tagsSD.tagsStepDef.user_needs_enters_user_firstname(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 198838000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User needs enters user \"Dalabehera\" surname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dalabehera",
+                  "offset": 24
+                }
+              ],
+              "location": "com.basic.tagsSD.tagsStepDef.user_needs_enters_user_surname(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34112000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User checks user \"Salin\" firstname is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Salin",
+                  "offset": 18
+                }
+              ],
+              "location": "com.basic.tagsSD.tagsStepDef.user_checks_user_firstname_is_present(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 30383000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User checks user \"Dalabehera\" surname is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dalabehera",
+                  "offset": 18
+                }
+              ],
+              "location": "com.basic.tagsSD.tagsStepDef.user_checks_user_surname_is_present(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32915000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User mobile field should be blank",
+            "match": {
+              "location": "com.basic.tagsSD.tagsStepDef.but_User_mobile_field_should_be_blank()"
+            },
+            "keyword": "But "
+          },
+          {
+            "result": {
+              "duration": 167524000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "close browser",
+            "match": {
+              "location": "com.basic.tagsSD.tagsStepDef.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Important"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-26T06:19:46.329Z",
+        "line": 43,
+        "name": "Validate firstName field5",
+        "description": "",
+        "id": "create-an-user-account-in-facebook;validate-firstname-field5",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5254276000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User needs to open a register page",
+            "match": {
+              "location": "com.basic.tagsSD.tagsStepDef.user_needs_to_open_a_facebook_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 319334000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User needs enters user \"Salin\" firstname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Salin",
+                  "offset": 24
+                }
+              ],
+              "location": "com.basic.tagsSD.tagsStepDef.user_needs_enters_user_firstname(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54660000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User checks user \"Salin\" firstname is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Salin",
+                  "offset": 18
+                }
+              ],
+              "location": "com.basic.tagsSD.tagsStepDef.user_checks_user_firstname_is_present(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 177950000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "close browser",
+            "match": {
+              "location": "com.basic.tagsSD.tagsStepDef.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Important"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Create an user account in Facebook",
+    "description": "As a user you need to open the facebook page and validate the username",
+    "id": "create-an-user-account-in-facebook",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/basic/tagsFF/tags.feature",
+    "tags": [
+      {
+        "name": "@Important",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

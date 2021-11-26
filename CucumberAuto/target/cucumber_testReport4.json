@@ -1,0 +1,227 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "open the webpage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5766285000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User needs to open a register page",
+            "match": {
+              "location": "com.basic.dataTableSD.dataTableStepDef.user_needs_to_open_a_facebook_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-26T06:18:28.726Z",
+        "line": 7,
+        "name": "Validate firstName field",
+        "description": "",
+        "id": "create-an-user-account-in-facebook;validate-firstname-field",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 444463000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User needs enters user \"Salin\" firstname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Salin",
+                  "offset": 24
+                }
+              ],
+              "location": "com.basic.dataTableSD.dataTableStepDef.user_needs_enters_user_firstname(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37115000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User checks user \"Salin\" firstname is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Salin",
+                  "offset": 18
+                }
+              ],
+              "location": "com.basic.dataTableSD.dataTableStepDef.user_checks_user_firstname_is_present(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 183140000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "close browser",
+            "match": {
+              "location": "com.basic.dataTableSD.dataTableStepDef.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "open the webpage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5191267000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User needs to open a register page",
+            "match": {
+              "location": "com.basic.dataTableSD.dataTableStepDef.user_needs_to_open_a_facebook_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-26T06:18:35.190Z",
+        "line": 12,
+        "name": "Validate multiple values",
+        "description": "",
+        "id": "create-an-user-account-in-facebook;validate-multiple-values",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2461404000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Enter following data",
+            "match": {
+              "location": "com.basic.dataTableSD.dataTableStepDef.enter_following_data(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "userName",
+                  "userSurName",
+                  "mobileNo"
+                ]
+              },
+              {
+                "cells": [
+                  "Salin",
+                  "Dalabehera",
+                  "12345"
+                ]
+              },
+              {
+                "cells": [
+                  "Manoj",
+                  "Kumar",
+                  "23456"
+                ]
+              },
+              {
+                "cells": [
+                  "Raj",
+                  "Kumar",
+                  "87898"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24887000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User checks user \"Salin\" firstname is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Salin",
+                  "offset": 18
+                }
+              ],
+              "location": "com.basic.dataTableSD.dataTableStepDef.user_checks_user_firstname_is_present(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28394000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User checks user \"Dalabehera\" surname is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dalabehera",
+                  "offset": 18
+                }
+              ],
+              "location": "com.basic.dataTableSD.dataTableStepDef.user_checks_user_surname_is_present(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31379000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User mobile field should be blank",
+            "match": {
+              "location": "com.basic.dataTableSD.dataTableStepDef.but_User_mobile_field_should_be_blank()"
+            },
+            "keyword": "But "
+          },
+          {
+            "result": {
+              "duration": 165619000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "close browser",
+            "match": {
+              "location": "com.basic.dataTableSD.dataTableStepDef.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create an user account in Facebook",
+    "description": "As a user you need to open the facebook page and validate the username",
+    "id": "create-an-user-account-in-facebook",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/basic/dataTableFF/dataTableFeature.feature",
+    "tags": []
+  }
+]

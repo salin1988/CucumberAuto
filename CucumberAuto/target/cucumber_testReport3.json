@@ -1,0 +1,441 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-26T06:19:13.418Z",
+        "line": 4,
+        "name": "Validate firstName field",
+        "description": "",
+        "id": "create-an-user-account-in-facebook;validate-firstname-field",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5015497000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User needs to open a register page",
+            "match": {
+              "location": "com.basic.dataDrivenSD.dataDrivenStepDef.user_needs_to_open_a_facebook_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 301203000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User needs enters user \"Salin\" firstname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Salin",
+                  "offset": 24
+                }
+              ],
+              "location": "com.basic.dataDrivenSD.dataDrivenStepDef.user_needs_enters_user_firstname(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43372000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User checks user \"Salin\" firstname is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Salin",
+                  "offset": 18
+                }
+              ],
+              "location": "com.basic.dataDrivenSD.dataDrivenStepDef.user_checks_user_firstname_is_present(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 154967000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "close browser",
+            "match": {
+              "location": "com.basic.dataDrivenSD.dataDrivenStepDef.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-26T06:19:18.947Z",
+        "line": 20,
+        "name": "Validate multiple values",
+        "description": "",
+        "id": "create-an-user-account-in-facebook;validate-multiple-values;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5387841000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User needs to open a register page",
+            "match": {
+              "location": "com.basic.dataDrivenSD.dataDrivenStepDef.user_needs_to_open_a_facebook_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 278007000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User needs enters user \"Salin\" firstname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Salin",
+                  "offset": 24
+                }
+              ],
+              "location": "com.basic.dataDrivenSD.dataDrivenStepDef.user_needs_enters_user_firstname(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 228101000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User needs enters user \"Dalabehera\" surname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dalabehera",
+                  "offset": 24
+                }
+              ],
+              "location": "com.basic.dataDrivenSD.dataDrivenStepDef.user_needs_enters_user_surname(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79713000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User checks user \"Salin\" firstname is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Salin",
+                  "offset": 18
+                }
+              ],
+              "location": "com.basic.dataDrivenSD.dataDrivenStepDef.user_checks_user_firstname_is_present(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 35086000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User checks user \"Dalabehera\" surname is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dalabehera",
+                  "offset": 18
+                }
+              ],
+              "location": "com.basic.dataDrivenSD.dataDrivenStepDef.user_checks_user_surname_is_present(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32426000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User mobile field should be blank",
+            "match": {
+              "location": "com.basic.dataDrivenSD.dataDrivenStepDef.but_User_mobile_field_should_be_blank()"
+            },
+            "keyword": "But "
+          },
+          {
+            "result": {
+              "duration": 192806000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "close browser",
+            "match": {
+              "location": "com.basic.dataDrivenSD.dataDrivenStepDef.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-26T06:19:25.189Z",
+        "line": 21,
+        "name": "Validate multiple values",
+        "description": "",
+        "id": "create-an-user-account-in-facebook;validate-multiple-values;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7209271000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User needs to open a register page",
+            "match": {
+              "location": "com.basic.dataDrivenSD.dataDrivenStepDef.user_needs_to_open_a_facebook_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 263390000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User needs enters user \"Manoj\" firstname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Manoj",
+                  "offset": 24
+                }
+              ],
+              "location": "com.basic.dataDrivenSD.dataDrivenStepDef.user_needs_enters_user_firstname(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 162288000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User needs enters user \"Kumar\" surname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kumar",
+                  "offset": 24
+                }
+              ],
+              "location": "com.basic.dataDrivenSD.dataDrivenStepDef.user_needs_enters_user_surname(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66860000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User checks user \"Manoj\" firstname is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Manoj",
+                  "offset": 18
+                }
+              ],
+              "location": "com.basic.dataDrivenSD.dataDrivenStepDef.user_checks_user_firstname_is_present(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 48975000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User checks user \"Kumar\" surname is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kumar",
+                  "offset": 18
+                }
+              ],
+              "location": "com.basic.dataDrivenSD.dataDrivenStepDef.user_checks_user_surname_is_present(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48594000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User mobile field should be blank",
+            "match": {
+              "location": "com.basic.dataDrivenSD.dataDrivenStepDef.but_User_mobile_field_should_be_blank()"
+            },
+            "keyword": "But "
+          },
+          {
+            "result": {
+              "duration": 195279000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "close browser",
+            "match": {
+              "location": "com.basic.dataDrivenSD.dataDrivenStepDef.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-26T06:19:33.192Z",
+        "line": 22,
+        "name": "Validate multiple values",
+        "description": "",
+        "id": "create-an-user-account-in-facebook;validate-multiple-values;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5596202000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User needs to open a register page",
+            "match": {
+              "location": "com.basic.dataDrivenSD.dataDrivenStepDef.user_needs_to_open_a_facebook_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 407956000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User needs enters user \"Sujit\" firstname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sujit",
+                  "offset": 24
+                }
+              ],
+              "location": "com.basic.dataDrivenSD.dataDrivenStepDef.user_needs_enters_user_firstname(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 197557000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User needs enters user \"Swain\" surname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Swain",
+                  "offset": 24
+                }
+              ],
+              "location": "com.basic.dataDrivenSD.dataDrivenStepDef.user_needs_enters_user_surname(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32125000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User checks user \"Sujit\" firstname is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sujit",
+                  "offset": 18
+                }
+              ],
+              "location": "com.basic.dataDrivenSD.dataDrivenStepDef.user_checks_user_firstname_is_present(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 48560000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User checks user \"Swain\" surname is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Swain",
+                  "offset": 18
+                }
+              ],
+              "location": "com.basic.dataDrivenSD.dataDrivenStepDef.user_checks_user_surname_is_present(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42103000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User mobile field should be blank",
+            "match": {
+              "location": "com.basic.dataDrivenSD.dataDrivenStepDef.but_User_mobile_field_should_be_blank()"
+            },
+            "keyword": "But "
+          },
+          {
+            "result": {
+              "duration": 200456000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "close browser",
+            "match": {
+              "location": "com.basic.dataDrivenSD.dataDrivenStepDef.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create an user account in Facebook",
+    "description": "As a user you need to open the facebook page and validate the username",
+    "id": "create-an-user-account-in-facebook",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/basic/dataDrivenFF/dataDriven.feature",
+    "tags": []
+  }
+]

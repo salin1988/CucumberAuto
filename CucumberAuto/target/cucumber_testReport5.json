@@ -1,0 +1,60 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-26T06:18:23.130Z",
+        "line": 4,
+        "name": "Validate firstName field",
+        "description": "",
+        "id": "create-an-user-account-in-facebook;validate-firstname-field",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5027681000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User needs to open a register page",
+            "match": {
+              "location": "com.basic.FirstFeatureFile.MyFirstStepDef.user_needs_to_open_a_facebook_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 246850000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User needs enters user firstname",
+            "match": {
+              "location": "com.basic.FirstFeatureFile.MyFirstStepDef.user_needs_enters_user_firstname()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 82030000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User checks user firstname is present",
+            "match": {
+              "location": "com.basic.FirstFeatureFile.MyFirstStepDef.user_checks_user_firstname_is_present()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create an user account in Facebook",
+    "description": "As a user you need to open the facebook page and validate the username",
+    "id": "create-an-user-account-in-facebook",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/basic/FirstFeatureFileFF/MyFirstFeature.feature",
+    "tags": []
+  }
+]

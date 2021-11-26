@@ -1,0 +1,225 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-26T06:18:43.264Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1869911000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.basic.SharedSD.Shared.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Validate firstName field",
+        "description": "",
+        "id": "create-an-user-account-in-facebook;validate-firstname-field",
+        "after": [
+          {
+            "result": {
+              "duration": 190492000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.basic.SharedSD.Shared.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "io.cucumber.core.exception.CucumberException: class com.basic.SharedSD.SharedStepDef doesn\u0027t have an empty constructor. If you need dependency injection, put cucumber-picocontainer on the classpath\n\tat io.cucumber.core.runtime.ObjectFactoryServiceLoader$DefaultJavaObjectFactory.cacheNewInstance(ObjectFactoryServiceLoader.java:145)\n\tat io.cucumber.core.runtime.ObjectFactoryServiceLoader$DefaultJavaObjectFactory.getInstance(ObjectFactoryServiceLoader.java:133)\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:73)\n\tat io.cucumber.junit.PickleRunners$WithStepDescriptions.run(PickleRunners.java:110)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:200)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:235)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)\nCaused by: java.lang.NoSuchMethodException: com.basic.SharedSD.SharedStepDef.\u003cinit\u003e()\n\tat java.base/java.lang.Class.getConstructor0(Class.java:3517)\n\tat java.base/java.lang.Class.getConstructor(Class.java:2238)\n\tat io.cucumber.core.runtime.ObjectFactoryServiceLoader$DefaultJavaObjectFactory.cacheNewInstance(ObjectFactoryServiceLoader.java:140)\n\t... 41 more\n",
+              "duration": 1612000,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "User needs to open a register page",
+            "match": {
+              "location": "com.basic.SharedSD.SharedStepDef.user_needs_to_open_a_facebook_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 464000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User needs enters user \"Salin\" firstname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Salin",
+                  "offset": 24
+                }
+              ],
+              "location": "com.basic.SharedSD.SharedStepDef.user_needs_enters_user_firstname(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1667000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User checks user \"Salin\" firstname is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Salin",
+                  "offset": 18
+                }
+              ],
+              "location": "com.basic.SharedSD.SharedStepDef2.user_checks_user_firstname_is_present(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-26T06:18:45.380Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1981486000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.basic.SharedSD.Shared.setup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Validate multiple values",
+        "description": "",
+        "id": "create-an-user-account-in-facebook;validate-multiple-values",
+        "after": [
+          {
+            "result": {
+              "duration": 145829000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.basic.SharedSD.Shared.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "io.cucumber.core.exception.CucumberException: class com.basic.SharedSD.SharedStepDef doesn\u0027t have an empty constructor. If you need dependency injection, put cucumber-picocontainer on the classpath\n\tat io.cucumber.core.runtime.ObjectFactoryServiceLoader$DefaultJavaObjectFactory.cacheNewInstance(ObjectFactoryServiceLoader.java:145)\n\tat io.cucumber.core.runtime.ObjectFactoryServiceLoader$DefaultJavaObjectFactory.getInstance(ObjectFactoryServiceLoader.java:133)\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:73)\n\tat io.cucumber.junit.PickleRunners$WithStepDescriptions.run(PickleRunners.java:110)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:200)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:235)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)\nCaused by: java.lang.NoSuchMethodException: com.basic.SharedSD.SharedStepDef.\u003cinit\u003e()\n\tat java.base/java.lang.Class.getConstructor0(Class.java:3517)\n\tat java.base/java.lang.Class.getConstructor(Class.java:2238)\n\tat io.cucumber.core.runtime.ObjectFactoryServiceLoader$DefaultJavaObjectFactory.cacheNewInstance(ObjectFactoryServiceLoader.java:140)\n\t... 41 more\n",
+              "duration": 394000,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "User needs to open a register page",
+            "match": {
+              "location": "com.basic.SharedSD.SharedStepDef.user_needs_to_open_a_facebook_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 296000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User needs enters user \"Salin\" firstname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Salin",
+                  "offset": 24
+                }
+              ],
+              "location": "com.basic.SharedSD.SharedStepDef.user_needs_enters_user_firstname(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 249000,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User needs enters user \"Dalabehera\" surname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dalabehera",
+                  "offset": 24
+                }
+              ],
+              "location": "com.basic.SharedSD.SharedStepDef.user_needs_enters_user_surname(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 244000,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User checks user \"Salin\" firstname is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Salin",
+                  "offset": 18
+                }
+              ],
+              "location": "com.basic.SharedSD.SharedStepDef2.user_checks_user_firstname_is_present(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 229000,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User checks user \"Dalabehera\" surname is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dalabehera",
+                  "offset": 18
+                }
+              ],
+              "location": "com.basic.SharedSD.SharedStepDef2.user_checks_user_surname_is_present(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 390000,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "User mobile field should be blank",
+            "match": {
+              "location": "com.basic.SharedSD.SharedStepDef2.but_User_mobile_field_should_be_blank()"
+            },
+            "keyword": "But "
+          }
+        ]
+      }
+    ],
+    "name": "Create an user account in Facebook",
+    "description": "As a user you need to open the facebook page and validate the username",
+    "id": "create-an-user-account-in-facebook",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/basic/SharedFF/Shared.feature",
+    "tags": []
+  }
+]
